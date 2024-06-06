@@ -3,3 +3,28 @@ Take input from user
 Add the respective values
 
 Submit Data to the database
+git init: Initialize a new Git repository in the current directory.
+
+git clone [url]: Clone an existing repository from a remote server to your local machine.
+
+git add [file]: Add a file to the staging area. You can also use git add . to add all changes in the current directory.
+
+git commit -m "[message]": Commit staged changes to the repository with a descriptive message.
+
+git status: Check the status of the working directory and staging area. It shows which files are modified, staged, or untracked.
+
+git log: Display the commit history of the current branch.
+
+git branch: List all branches in the repository. Use -a option to list both remote-tracking and local branches.
+
+git checkout [branch-name]: Switch to a different branch. You can also use this command to create a new branch by adding the -b option followed by the branch name.
+
+git merge [branch-name]: Merge changes from the specified branch into the current branch.
+
+git pull: Fetch changes from the remote repository and merge them into the current branch.
+
+git push [remote] [branch]: Push commits from your local branch to a remote repository. If you cloned a repository, typically, the remote is named origin.
+
+git remote -v: List all remote repositories along with their URLs.
+
+git diff [file]: Show changes between the working directory and the staging area or between the staging area and the repository.
